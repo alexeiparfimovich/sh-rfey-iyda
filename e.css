@@ -2,28 +2,25 @@
 
 body {
     margin: 0;
-    background-repeat: no-repeat;
-    background-image: url(skeleton_twerk_default_dance.gif);
-    background-attachment: fixed;
-    background-position:
+    background: url(skeleton_twerk_default_dance.gif) no-repeat left fixed ;
+    background-size: contain;
     
 }
 
 ul {
-    margin: 0 auto;
-    padding: ;
+    margin: 0 0;
 }
 
 a {
     text-decoration: none;
     font-family: 'Arial', serif;
-    transition: 0.5s;
+    transition: 0.5s ;
 }
 
 nav {
     display: block;
-    margin: 0 auto 30px;
-    width: em;
+    margin: 0 0;
+    width: auto;
 }
 
 .navv ul {
@@ -39,7 +36,8 @@ nav {
 }
 
 .navv a:hover {
-    background-color: coral;
+    background-color: #FF7631;
+
 }
 
 .navv li {
