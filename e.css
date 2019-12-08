@@ -2,11 +2,16 @@
 
 body {
     margin: 0;
-    background-image: url(skeleton_twerk_default_dance.gif) ;
+    background-repeat: no-repeat;
+    background-image: url(skeleton_twerk_default_dance.gif);
+    background-attachment: fixed;
+    background-position:
+    
 }
 
 ul {
     margin: 0 auto;
+    padding: ;
 }
 
 a {
@@ -17,13 +22,13 @@ a {
 
 nav {
     display: block;
-    width: center;
-    margin: 0 auto  30px;
+    margin: 0 auto 30px;
+    width: em;
 }
 
 .navv ul {
     padding: 1em 0;
-    background: rgba(255, 30, 30, 0.);
+    
 }
 
 .navv a {
