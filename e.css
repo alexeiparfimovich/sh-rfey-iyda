@@ -1,0 +1,42 @@
+@import url (https://fonts.googleapis.com/css?family=Lora);
+
+body {
+    margin: 0;
+    background-image: url(skeleton_twerk_default_dance.gif) ;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Arial', serif;
+    transition: 0.5s;
+}
+
+nav {
+    display: block;
+    width: center;
+    margin: 0 auto  30px;
+}
+
+.navv ul {
+    padding: 1em 0;
+    background: rgba(255, 30, 30, 0.);
+}
+
+.navv a {
+    padding: 1em;
+    background: rgba(255, 30, 30, 0.2);
+    border-right: 1px solid #b19891;
+    color: #695753;
+}
+
+.navv a:hover {
+    background-color: coral;
+}
+
+.navv li {
+    display: inline
+}
